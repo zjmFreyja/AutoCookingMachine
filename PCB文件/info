@@ -1,0 +1,443 @@
+{
+  "uuid": "9d4b7cd33f0331df1b7a18e73a71ef61",
+  "path": "Offline/%E6%AF%95%E8%AE%BEv2",
+  "name": "毕设v2",
+  "content": "",
+  "created_at": "2024-01-24 14:07:25",
+  "updated_at": "2024-04-17 18:50:16",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "83a14368671dd8650b50e58699b16682",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8850ffcdb9d242a1b431d4a3e2209db1": 4,
+        "17d989225e7d42839ef422d52be2b802": 2,
+        "0d99d984659e49a4810d314af6cc84a8": 1,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 10,
+        "ffd833571acc40f2a6d3644483106874": 3,
+        "bfb6f5ff2e1845848edd6d90292be852": 4,
+        "c2a8c52f6bda437986231e6186a19bb5": 1,
+        "80c6ffa594234052aad1f54334b66e21": 1,
+        "94ac3ab2b6af8072396ddb3375f848c7": 1,
+        "0dda41713df34690bfc6165de8555628": 1,
+        "b82150387a2041b4afd55b90c79c5923": 3,
+        "9698a5ebc38f435fb5a5f9ff5b84927c": 1,
+        "cf824c956fea4d29bad19da697c88f98": 1,
+        "a7291ceaee5442a999df26c55c7e675d": 2,
+        "f8e4caf5269848a99e8a0486e8f065fe": 1,
+        "d8fde9d0052b4916adb59b6ee7394e14": 5,
+        "9fca3523e9684c74952180b004bc0b5b": 1,
+        "7415ddb9e73b4c299a9282873248f379": 1,
+        "5efcfc5164c74d2a881dbe3e4ce28478": 1,
+        "3fe49e2f34b2450badb22971dea341ee": 1,
+        "2765b778cef442198828e9432d9d0d44": 1,
+        "2986e5e5f3904e1e843a43167a8d85d7": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "5VDC蜂鸣器,Φ12,脚距7.6",
+          1,
+          "BUZ-TH_BD12.0-P7.60-D0.6-FD",
+          "BUZ1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900018824",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "5VDC蜂鸣器,Φ12,脚距7.6",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "4937126739894c52921de221c4760bbc",
+            "uuid": "5efcfc5164c74d2a881dbe3e4ce28478"
+          }
+        ],
+        [
+          "20pf",
+          2,
+          "C0805",
+          "C1,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
+          "0.1uf",
+          1,
+          "C0805",
+          "C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
+          "XT60PW-M",
+          1,
+          "CONN-TH_XT60PW-M",
+          "CN1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C98732",
+            "BOM_Manufacturer": "AMASS(艾迈斯)",
+            "BOM_Manufacturer Part": "XT60PW-M",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "165d52f5585146ec9f2302224e9153f2",
+            "uuid": "c2a8c52f6bda437986231e6186a19bb5"
+          }
+        ],
+        [
+          "1N5822_C845404",
+          1,
+          "DO-27_BD5.3-L8.4-P12.40-D1.3-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C845404",
+            "BOM_Manufacturer": "TF",
+            "BOM_Manufacturer Part": "1N5822",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "43a74662cb9c49cebd426dcfec1155e1",
+            "uuid": "0d99d984659e49a4810d314af6cc84a8"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x20",
+          2,
+          "HDR-F-2.54_1X20",
+          "H1,H2",
+          {
+            "BOM_Supplier Part": "C50984",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d2341d8234464924809729b13422be4a",
+            "uuid": "17d989225e7d42839ef422d52be2b802"
+          }
+        ],
+        [
+          "DS18B20",
+          1,
+          "HDR-F-2.54_1X3",
+          "H3",
+          {
+            "BOM_Supplier Part": "C146690",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f83673d09e13450d934ca6be4be5af8f",
+            "uuid": "a7291ceaee5442a999df26c55c7e675d"
+          }
+        ],
+        [
+          "BARRIERSWITCH",
+          1,
+          "HDR-F-2.54_1X3",
+          "H4",
+          {
+            "BOM_Supplier Part": "C146690",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f83673d09e13450d934ca6be4be5af8f",
+            "uuid": "a7291ceaee5442a999df26c55c7e675d"
+          }
+        ],
+        [
+          "LED-TH-5mm_R",
+          4,
+          "LED-TH_BD5.0_RED",
+          "LED1,LED2,LED3,LED4",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "333-2SURD/S530-A3",
+            "BOM_Supplier Part": "C87271",
+            "BOM_Supplier": "LCSC",
+            "puuid": "ce0ed154d45b41508e0debca8473ba07",
+            "uuid": "8850ffcdb9d242a1b431d4a3e2209db1"
+          }
+        ],
+        [
+          "2N3904(TO-92)",
+          1,
+          "TO-92-3_L5.1-W4.1-P1.27-L",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Manufacturer Part": "2N3904",
+            "BOM_Supplier Part": "C118538",
+            "puuid": "6a8cc0d167d04926a8ac5a757ba65780",
+            "uuid": "7415ddb9e73b4c299a9282873248f379"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R0805",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "9698a5ebc38f435fb5a5f9ff5b84927c"
+          }
+        ],
+        [
+          "10k",
+          4,
+          "R_AXIAL-0.3",
+          "R2,R3,R4,R11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1k",
+          6,
+          "R_AXIAL-0.3",
+          "R5,R6,R7,R8,R9,R10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "RES-ADJ-TH_3P-L9.6-W4.8-P2.50-R",
+          "R12",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "4d1c26cf3c7c4848b2cec6eb92258b6a",
+            "uuid": "2765b778cef442198828e9432d9d0d44"
+          }
+        ],
+        [
+          "KEYSWITCH",
+          5,
+          "KEYSWITCH",
+          "SW1,SW2,SW3,SW4,SW5",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "1398c9a80dab4325a841a93a44a5a8aa",
+            "uuid": "d8fde9d0052b4916adb59b6ee7394e14"
+          }
+        ],
+        [
+          "STM32F103C8T6-最小系统-直插-final",
+          1,
+          "STM32F103C8T6最小系统板",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "f853299adde84575b4ec02a444731be8",
+            "uuid": "80c6ffa594234052aad1f54334b66e21"
+          }
+        ],
+        [
+          "DS1302ZN+",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "94ac3ab2b6af8072396ddb3375f848c7"
+          }
+        ],
+        [
+          "ESP01S 去丝印",
+          1,
+          "ESP01S",
+          "U4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "0717eef9996e45ce8917a9c9cc747694",
+            "uuid": "cf824c956fea4d29bad19da697c88f98"
+          }
+        ],
+        [
+          "26AWG-3",
+          4,
+          "HDR3X1_A",
+          "U5,U6,U7,U8",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "0ceb603a15b848a2987a75f2fb2f4213",
+            "uuid": "bfb6f5ff2e1845848edd6d90292be852"
+          }
+        ],
+        [
+          "LM2596S",
+          1,
+          "LM2596S",
+          "U9",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "e069a0012f3d4300a0381d6c1acea95d",
+            "uuid": "f8e4caf5269848a99e8a0486e8f065fe"
+          }
+        ],
+        [
+          "OLED0.96模块",
+          1,
+          "OLED0.96模块",
+          "U12",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "993cb146647b4f28b529206bfa550ebc",
+            "uuid": "9fca3523e9684c74952180b004bc0b5b"
+          }
+        ],
+        [
+          "步进电机驱动板连接端子",
+          3,
+          "步进电机驱动板",
+          "U13,U14,U15",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "015144b827a54c96af3a8817e8d98d32",
+            "uuid": "ffd833571acc40f2a6d3644483106874"
+          }
+        ],
+        [
+          "MTS-102妞子开关",
+          1,
+          "MTS102",
+          "U16",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "f55333457a914d349d2bf23cf82b1726",
+            "uuid": "3fe49e2f34b2450badb22971dea341ee"
+          }
+        ],
+        [
+          "BAT_CR2032/2025_电池座",
+          1,
+          "BAT_CR2025/2032",
+          "U17",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "c5be9a61098041e59cc91d7202f958d4",
+            "uuid": "2986e5e5f3904e1e843a43167a8d85d7"
+          }
+        ],
+        [
+          "32.768KHz",
+          1,
+          "32.768HZ",
+          "X1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C326534",
+            "BOM_Manufacturer": "CITIZEN",
+            "BOM_Manufacturer Part": "CFS-20632768EZFB",
+            "puuid": "8fd487cec2f740b3a17afa4619aef126",
+            "uuid": "0dda41713df34690bfc6165de8555628"
+          }
+        ]
+      ],
+      "updateTime": 1712844670,
+      "createTime": 1706076445,
+      "histories": [],
+      "created_at": "2024-01-24 14:07:25",
+      "updated_at": "2024-04-11 22:11:10"
+    },
+    {
+      "uuid": "ad541049a0c558d7d15de25292e2b9e2",
+      "puuid": "9d4b7cd33f0331df1b7a18e73a71ef61",
+      "title": "PCB_毕设v2",
+      "filename": "PCB_毕设v2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4937126739894c52921de221c4760bbc": 1,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 3,
+        "165d52f5585146ec9f2302224e9153f2": 1,
+        "43a74662cb9c49cebd426dcfec1155e1": 1,
+        "d2341d8234464924809729b13422be4a": 2,
+        "f83673d09e13450d934ca6be4be5af8f": 2,
+        "ce0ed154d45b41508e0debca8473ba07": 4,
+        "6a8cc0d167d04926a8ac5a757ba65780": 1,
+        "b60f399a7a7e41848b2be1eb49c79141": 1,
+        "3eb1249f3ebb4284ae221b0379016582": 10,
+        "4d1c26cf3c7c4848b2cec6eb92258b6a": 1,
+        "1398c9a80dab4325a841a93a44a5a8aa": 5,
+        "f853299adde84575b4ec02a444731be8": 1,
+        "806a55eb4d3c40ab838f70f86785d85e": 1,
+        "0717eef9996e45ce8917a9c9cc747694": 1,
+        "0ceb603a15b848a2987a75f2fb2f4213": 4,
+        "e069a0012f3d4300a0381d6c1acea95d": 1,
+        "993cb146647b4f28b529206bfa550ebc": 1,
+        "015144b827a54c96af3a8817e8d98d32": 3,
+        "f55333457a914d349d2bf23cf82b1726": 1,
+        "8fd487cec2f740b3a17afa4619aef126": 1,
+        "c5be9a61098041e59cc91d7202f958d4": 1
+      },
+      "BOM": [],
+      "updateTime": 1713351016,
+      "createTime": 1710511985,
+      "histories": [],
+      "created_at": "2024-03-15 22:13:05",
+      "updated_at": "2024-04-17 18:50:16"
+    }
+  ],
+  "sort": [],
+  "title": "毕设v2",
+  "foldername": "毕设v2",
+  "schfilename": "毕设v2.json",
+  "schfilemtime": 1712844670240
+}

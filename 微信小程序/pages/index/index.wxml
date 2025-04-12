@@ -1,0 +1,162 @@
+<!--index.wxml-->
+<view class = "page-container">
+  <!--头部部分-->
+  <view class = "header-container">
+    <image style="position: relative; left: -29rpx; top: 0rpx" class = "header-container__image" src="/static/mainpage.png" />
+  <view class = "header-container__text1">
+  开发By郑宇杰  MQTT技术支持:胡成龙（新工科）
+  </view>
+</view>
+  <!--数据部分-->
+  <!--时间年月日-->
+  <view class = "data-container">
+    <view class = "data-card">
+      <image class = "data-card__icon" src="/static/daybyday.png" />
+      <view class = "data-card__text">
+      <view class = "data-card__value">
+      {{Year}}-{{Month}}-{{Day}}
+      </view>
+    </view>
+    </view>
+  </view>
+  <!--时分秒-->
+  <view class = "data-container">
+    <view class = "data-card">
+      <image class = "data-card__icon" src="/static/time.png" />
+      <view class = "data-card__text">
+      <view class = "data-card__value">
+      {{Hour}}:{{Minute}}:{{Second}}
+      </view>
+      </view>
+    </view>
+  </view>
+  <!--年份修改-->
+  <view class = "data-container2">
+    <view class = "data-card">
+      <image class = "data-card__icon" src="/static/Syear.png" />
+      <view class = "data-card__text">
+        <view class = "data-card__value">
+        {{Syear}}
+        </view>
+        <view class="btn">
+          <button  size= "mini" bindtap="onDefaultButtonClick1"  class='goodbutton'  hover-class="hover"> 增加年份 </button>
+         <button  size= "mini" bindtap="onDefaultButtonClick2"  class='goodbutton'  hover-class="hover"> 减少年份 </button>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!--月份修改-->
+  <view class = "data-container2">
+    <view class = "data-card">
+      <image class = "data-card__icon" src="/static/Smonth.png" />
+      <view class = "data-card__text">
+        <view class = "data-card__value">
+        {{Smonth}}
+        </view>
+        <view class="btn">
+          <button  size= "mini" bindtap="onDefaultButtonClick3"  class='goodbutton'  hover-class="hover"> 增加月份 </button>
+         <button  size= "mini" bindtap="onDefaultButtonClick4"  class='goodbutton'  hover-class="hover"> 减少月份 </button>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!--日修改-->
+  <view class = "data-container2">
+    <view class = "data-card">
+      <image class = "data-card__icon" src="/static/Sday.png" />
+      <view class = "data-card__text">
+        <view class = "data-card__value">
+        {{Sday}}
+        </view>
+        <view class="btn">
+          <button  size= "mini" bindtap="onDefaultButtonClick5"  class='goodbutton'  hover-class="hover"> 增加日数 </button>
+         <button  size= "mini" bindtap="onDefaultButtonClick6"  class='goodbutton'  hover-class="hover"> 减少日数 </button>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!--小时修改-->
+  <view class = "data-container2">
+    <view class = "data-card">
+      <image class = "data-card__icon" src="/static/Shour.png" />
+      <view class = "data-card__text">
+        <view class = "data-card__value">
+        {{Shour}}
+        </view>
+        <view class="btn">
+          <button  size= "mini" bindtap="onDefaultButtonClick7"  class='goodbutton'  hover-class="hover"> 增加小时 </button>
+         <button  size= "mini" bindtap="onDefaultButtonClick8"  class='goodbutton'  hover-class="hover"> 减少小时 </button>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!--分钟修改-->
+  <view class = "data-container2">
+    <view class = "data-card">
+      <image class = "data-card__icon" src="/static/Sminute.png" />
+      <view class = "data-card__text">
+        <view class = "data-card__value">
+        {{Sminute}}
+        </view>
+        <view class="btn">
+          <button  size= "mini" bindtap="onDefaultButtonClick9"  class='goodbutton'  hover-class="hover"> 增加分钟 </button>
+         <button  size= "mini" bindtap="onDefaultButtonClick10"  class='goodbutton'  hover-class="hover"> 减少分钟 </button>
+        </view>
+      </view>
+    </view>
+  </view>
+   <!--菜单修改-->
+  <view class = "data-container2">
+    <view class = "data-card">
+      <image class = "data-card__icon" src="/static/menu.png" />
+      <view class = "data-card__text">
+        <view class = "data-card__value1">
+        {{MenuName}}
+        </view>
+        <view class="btn">
+          <button  size= "mini" bindtap="onDefaultButtonClick11"  class='goodbutton'  hover-class="hover"> 上个菜单 </button>
+         <button  size= "mini" bindtap="onDefaultButtonClick12"  class='goodbutton'  hover-class="hover"> 下个菜单 </button>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!--保温？-->
+  <view class = "data-container">
+    <view class = "data-card">
+      <image class = "data-card__icon" src="/static/Heat.png" />
+      <view class = "data-card__text">
+      <view class = "data-card__title">
+      保温
+      </view>
+      <view class = "data-card__value">
+      <switch checked="{{Heat}}" bindchange="onHeatChange" color="#3d7ef9"/>
+      </view>
+      </view>
+    </view>
+  </view>
+   <!--开始-->
+   <view class = "data-container2">
+    <view class = "data-card">
+      <image class = "data-card__icon" src="/static/cooking.png" />
+      <view class = "data-card__text" style="width: 625rpx; height: 215rpx; display: block; box-sizing: border-box; left: 55rpx; top: 2520rpx">
+        <view class="btn2">
+          <button bindtap="onDefaultButtonClick13"  class='goodbutton'  hover-class="hover" > 开始做饭! </button>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!--报警器-->
+  <view class = "data-container">
+    <view class = "data-card">
+      <image class = "data-card__icon" src="/static/alarm.png" />
+      <view class = "data-card__text">
+      <view class = "data-card__title">
+      报警器
+      </view>
+      <view class = "data-card__value">
+      <switch checked="{{Alarm}}" bindchange="onAlarmChange" color="#3d7ef9"/>
+      </view>
+      </view>
+    </view>
+  </view>
+</view>

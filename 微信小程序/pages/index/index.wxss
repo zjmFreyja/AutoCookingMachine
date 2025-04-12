@@ -1,0 +1,108 @@
+/**index.wxss**/
+.page-container{
+  padding:0rpx;
+}
+.header-container{
+  margin-top: 0rpx;
+  padding:0rpx 0rpx;
+  background-color:burlywood;
+}
+.header-container .header-container__image{
+  height: 450rpx;
+  width:  780rpx;
+}
+.header-container .header-container__text1{
+  font-size: 30rpx;
+}
+.data-container{
+  margin-top: 36rpx;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 300rpx);
+  grid-gap: 36rpx;
+}
+.data-container .data-card{
+  height: 120rpx;
+  width: 560rpx;
+  box-shadow: #d6d6d6 0 0 8rpx;
+  border-radius: 36rpx;
+  display:flex;
+  justify-content: space-between;
+  padding:24rpx 32rpx;
+}
+.data-container .data-card .data-card__text{
+  position:absolute;
+  right:80rpx;
+  text-align: right;
+  white-space:nowrap;
+}
+.data-container .data-card .data-card__icon{
+  position:absolute;
+  right:550rpx;
+  height: 120rpx;
+  width:  120rpx;
+}
+.data-container .data-card .data-card__value{
+  position:absolute;
+  right:10rpx;
+  font-size : 75rpx;
+  font-weight:bold;
+}
+.data-card__value1{
+  position:absolute;
+  font-weight:bold;
+  font-size:45rpx;
+  right:220rpx;
+  margin-top: 50rpx;
+}
+.data-container .data-card .data-card__title{
+  position:absolute;
+  right:300rpx;
+  font-size :50rpx;
+  margin-top: 60rpx;
+}
+.data-container2{
+  margin-top: 36rpx;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 300rpx);
+  grid-gap: 36rpx;
+}
+.data-container2 .data-card{
+  height: 150rpx;
+  width: 560rpx;
+  box-shadow: #d6d6d6 0 0 8rpx;
+  border-radius: 36rpx;
+  display:flex;
+  justify-content: space-between;
+  padding:24rpx 32rpx;
+}
+.data-container2 .data-card .data-card__text{
+  position:absolute;
+  right:80rpx;
+  text-align: right;
+  white-space:nowrap;
+}
+.data-container2 .data-card .data-card__icon{
+  position:absolute;
+  right:550rpx;
+  height: 120rpx;
+  width:  120rpx;
+}
+.data-container2 .data-card .data-card__value{
+  position:absolute;
+  right:220rpx;
+  font-size : 100rpx;
+  font-weight:bold;
+}
+.data-container2 .data-card .btn{
+  display: grid;
+  justify-content: right;
+  grid-template-columns: repeat(auto-fill,220rpx);
+}
+.data-container2 .data-card .btn2{
+  display: grid;
+  justify-content: right;
+  grid-template-columns: repeat(auto-fill,480rpx);
+  margin-top: 65rpx;
+}
